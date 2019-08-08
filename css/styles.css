@@ -1,0 +1,77 @@
+.container-fluid {
+	padding: 0rem;
+	overflow: hidden;
+
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+/*--Day 1 start--*/
+@media only screen and (min-width: 768px) {
+#one .content {
+	background-color: #fff;
+	padding: 2rem;
+}
+
+#one .row {
+	height: 100vh;
+	background-color: #F1F1F1;
+	padding: 5rem 3rem;
+}
+
+
+}
+#one .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 7rem;
+	font-style: italic;
+	line-height: 120%;
+	color: #2A2A2A;
+	overflow: hidden; 
+}
+
+
+#one .secondfont {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #2A2A2A;
+	padding-top: 8rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+#one .content {
+	padding: 1.5rem;
+}
+
+#one .row {
+	padding: 4rem 2rem;
+}
+
+#one .firstfont {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 7rem;
+	font-style: italic;
+	line-height: 120%;
+	color: #2A2A2A;
+	overflow: hidden; 
+}
+
+#one .secondfont {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #2A2A2A;
+	padding-top: 8rem;
+}
+
+}
+/*--Day 1 ends--*/
