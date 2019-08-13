@@ -1,7 +1,30 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #2A2A2A;
+}
+
+/* unvisited link */
+a {
+	color: #2A2A2A !important;
+	font-weight: 700;
+	text-decoration: underline;
+	background-color: #FFD500;
+  	padding: 0 .25rem 0 .25rem;
+
+}
+
+/* mouse over link */
+a:hover {
+	background-color: pink !important;
+  	padding: 0 .25rem 0 .25rem;
+}
+
+
 .container-fluid {
 	padding: 0rem;
 	overflow: hidden;
-
 }
 
 .row {
@@ -10,68 +33,137 @@
 	overflow: hidden;
 }
 
+.daycount {
+	background-color: #fff;
+	position: absolute;
+	right: 2rem;
+	bottom: 2rem;
+
+}
+
+.fas {
+	color: #fff;
+}
+
+/*--Day 2 start--*/
+#two .content {
+	height: 100%;
+}
+
+#two .row {
+	background-color: #FFD500;
+	padding: 8rem 3rem;
+}
+
+#two .firstfont {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+	text-transform: uppercase;
+	overflow: hidden; 
+	margin: 3rem 2rem;
+	position: relative;
+
+}
+
+#two .fas {
+	opacity: 0.5;
+	position: absolute;
+}
+
+#two .secondfont {
+	margin: 3rem 2rem;
+
+}
+
+
+#two .why {
+	margin-top: 4rem;
+}
+
+#two .when {
+	margin-top: 8rem;
+}
+
+#two .where {
+	margin-top: 1rem;
+}
+
+/*--Day 2 ends--*/
 
 /*--Day 1 start--*/
-@media only screen and (min-width: 768px) {
+
 #one .content {
 	background-color: #fff;
 	padding: 2rem;
 }
 
 #one .row {
-	height: 100vh;
+	height: 100%;
 	background-color: #F1F1F1;
-	padding: 5rem 3rem;
+	padding: 9rem 3rem;
 }
 
-
-}
-#one .firstfont {
+#one .firstfont-front {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-size: 7rem;
 	font-style: italic;
 	line-height: 120%;
-	color: #2A2A2A;
 	overflow: hidden; 
 }
 
+#one .firstfont-back {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 7rem;
+	font-style: italic;
+	line-height: 120%;
+	color: #FFD500;
+	overflow: hidden;
+	position: absolute;	
+}
 
 #one .secondfont {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	color: #2A2A2A;
 	padding-top: 8rem;
-}
-}
-
-@media only screen and (max-width: 480px) {
-#one .content {
-	padding: 1.5rem;
+	padding-bottom: 8rem;
 }
 
+
+@media only screen and (max-width: 768px) {
 #one .row {
-	padding: 4rem 2rem;
+	padding: 6rem 2rem;
 }
 
-#one .firstfont {
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	font-size: 7rem;
-	font-style: italic;
-	line-height: 120%;
-	color: #2A2A2A;
-	overflow: hidden; 
+#one .firstfont-front {
+	font-size: 5rem;
+}
+
+#one .firstfont-back {
+	font-size: 5rem;
 }
 
 #one .secondfont {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1rem;
-	line-height: 1.5rem;
-	color: #2A2A2A;
-	padding-top: 8rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;	
+}
 }
 
+@media only screen and (max-width: 576px) {
+#one .row {
+	padding: 4rem 1.5rem;
 }
+
+#one .firstfont-front {
+	font-size: 4rem;
+}
+
+#one .firstfont-back {
+	font-size: 4rem;
+}
+}
+
 /*--Day 1 ends--*/

@@ -1,0 +1,4 @@
+$base-color: #FFD500;
+
+darken( $base-color, 10% )
+lighten( $base-color, 10% )
